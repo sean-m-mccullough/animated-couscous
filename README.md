@@ -1,44 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Context
 
-## Available Scripts
+Our software is a record-keeping system for a retirement plan. Plan members make contributions to the plan to save for
+retirement, and those contributions are invested into their selection of investment vehicle (e.g. index fund). We work only with registered
+accounts and plan members can specify how much of their contribution goes to RRSP and how much goes to TFSA.
 
-In the project directory, you can run:
+In this project, your colleague has implemented "My Contributions" page with an ability to edit or cancel contributions. Unfortunately they had to take a sick leave and the status of their work is unknown.
 
-### `npm start`
+# Problem
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Your task is to complete your coleague's work. On this page plan members need to be able to edit or cancel their upcoming monthly contribution. Acceptance criteria:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Only upcoming (`PENDING`) contributions can be edited on cancelled. 
+* When user chooses to cancel their upcoming contribution we need to ask for confirmation with the following copy: `Are you sure you want to cancel this contribution?`
 
-### `npm test`
+Use the following API endpoints:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* `PUT /contributions/:uuid` to save changes to a contribution
+* `DELETE /contributions/:uuid` to cancel a contribution
 
-### `npm run build`
+These endpoints do not actually exist. You'll get 404 when you call them, so dont worry it's ok.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You may install any libraries or packages you deem necessary to complete your task. Also while implementing please feel free to refactor any code if you believe it's required to make it better. If there are improvements you would like to do that you don't have time to complete (or that are outside the scope of this project), or if there are questions or assumptions that affect your choices, please describe those in the file `TODO.md`.

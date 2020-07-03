@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`opens a dialog when pending contribution is edited 1`] = `
+<body
+  style="padding-right: 0px; overflow: hidden;"
+>
+  <div
+    aria-hidden="true"
+  >
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        class="MuiCardHeader-root"
+      >
+        <div
+          class="MuiCardHeader-content"
+        >
+          <span
+            class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+          >
+            My Contributions
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiCardContent-root"
+      >
+        <ul
+          class="MuiList-root MuiList-padding"
+        >
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button Mui-selected"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                July 3rd, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                $
+                1500
+                <span
+                  class="MuiBadge-root"
+                >
+                  <span
+                    class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorPrimary"
+                  >
+                    PENDING
+                  </span>
+                </span>
+              </p>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                June 3rd, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                $
+                1500
+              </p>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                May 3rd, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                $
+                1500
+              </p>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                April 3rd, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                $
+                1500
+              </p>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </div>
+          <div
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+            role="button"
+            tabindex="0"
+          >
+            <div
+              class="MuiListItemText-root MuiListItemText-multiline"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                March 3rd, 2020
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2"
+              >
+                $
+                1500
+              </p>
+            </div>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </div>
+        </ul>
+      </div>
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Edit
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Cancel
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiDialog-root"
+    role="presentation"
+    style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px;"
+  >
+    <div
+      aria-hidden="true"
+      class="MuiBackdrop-root"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+    />
+    <div
+      data-test="sentinelStart"
+      tabindex="0"
+    />
+    <div
+      class="MuiDialog-container MuiDialog-scrollPaper"
+      role="none presentation"
+      style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+      tabindex="-1"
+    >
+      <div
+        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
+        role="dialog"
+      >
+        <div
+          class="MuiDialogTitle-root"
+        >
+          <h2
+            class="MuiTypography-root MuiTypography-h6"
+          >
+            Edit Contribution
+          </h2>
+        </div>
+        <form
+          action="#"
+        >
+          <div
+            class="MuiDialogContent-root content"
+          >
+            <div
+              class="MuiFormControl-root MuiTextField-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+                data-shrink="true"
+              >
+                RRSP
+              </label>
+              <div
+                class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart"
+              >
+                <div
+                  class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                  >
+                    $
+                  </p>
+                </div>
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart"
+                  name="rrsp"
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="MuiFormControl-root MuiTextField-root"
+            >
+              <label
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+                data-shrink="true"
+              >
+                TFSA
+              </label>
+              <div
+                class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedStart"
+              >
+                <div
+                  class="MuiInputAdornment-root MuiInputAdornment-positionStart"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+                  >
+                    $
+                  </p>
+                </div>
+                <input
+                  aria-invalid="false"
+                  class="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedStart"
+                  name="tfsa"
+                  type="number"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiDialogActions-root MuiDialogActions-spacing"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Cancel
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Accept
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      data-test="sentinelEnd"
+      tabindex="0"
+    />
+  </div>
+</body>
+`;
+
+exports[`renders with no issues 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      class="MuiCardHeader-root"
+    >
+      <div
+        class="MuiCardHeader-content"
+      >
+        <span
+          class="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+        >
+          My Contributions
+        </span>
+      </div>
+    </div>
+    <div
+      class="MuiCardContent-root"
+    >
+      <ul
+        class="MuiList-root MuiList-padding"
+      >
+        <div
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              July 3rd, 2020
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            >
+              $
+              1500
+              <span
+                class="MuiBadge-root"
+              >
+                <span
+                  class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorPrimary"
+                >
+                  PENDING
+                </span>
+              </span>
+            </p>
+          </div>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+        <div
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              June 3rd, 2020
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            >
+              $
+              1500
+            </p>
+          </div>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+        <div
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              May 3rd, 2020
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            >
+              $
+              1500
+            </p>
+          </div>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+        <div
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              April 3rd, 2020
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            >
+              $
+              1500
+            </p>
+          </div>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+        <div
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="MuiListItemText-root MuiListItemText-multiline"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              March 3rd, 2020
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body2"
+            >
+              $
+              1500
+            </p>
+          </div>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </div>
+      </ul>
+    </div>
+    <div
+      class="MuiCardActions-root MuiCardActions-spacing"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text Mui-disabled Mui-disabled"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Edit
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text Mui-disabled Mui-disabled"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          Cancel
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

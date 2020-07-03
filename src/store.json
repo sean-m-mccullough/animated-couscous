@@ -1,0 +1,35 @@
+{
+  "dialogs": {},
+  "contributions": [
+    {
+      "uuid": "6ee2e1b4-ee06-4027-870b-607beb1d89e6",
+      "status": "PENDING",
+      "tfsa": 500,
+      "rrsp": 1000
+    },
+    {
+      "uuid": "d157ad0e-306a-4cb9-a8a6-2d9c84a201da",
+      "status": "PROCESSED",
+      "tfsa": 500,
+      "rrsp": 1000
+    },
+    {
+      "uuid": "cfde9244-4690-498a-8195-08e32fb5814a",
+      "status": "PROCESSED",
+      "tfsa": 500,
+      "rrsp": 1000
+    },
+    {
+      "uuid": "b87330bf-f424-4a61-9e9e-12bc17237eda",
+      "status": "PROCESSED",
+      "tfsa": 500,
+      "rrsp": 1000
+    },
+    {
+      "uuid": "d4bcd4bd-24e5-4b9b-a374-85d6ee5d5869",
+      "status": "PROCESSED",
+      "tfsa": 500,
+      "rrsp": 1000
+    }
+  ]
+}
