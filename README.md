@@ -18,6 +18,6 @@ Use the following API endpoints:
 * `PUT /contributions/:uuid` to save changes to a contribution
 * `DELETE /contributions/:uuid` to cancel a contribution
 
-These endpoints do not actually exist. You'll get 404 when you call them, so dont worry it's ok.
+These endpoints do not actually exist. You'll get 404 when you call them, so dont worry it's ok. Pretend is's a successful call.
 
 You may install any libraries or packages you deem necessary to complete your task. Also while implementing please feel free to refactor any code if you believe it's required to make it better. If there are improvements you would like to do that you don't have time to complete (or that are outside the scope of this project), or if there are questions or assumptions that affect your choices, please describe those in the file `TODO.md`.
