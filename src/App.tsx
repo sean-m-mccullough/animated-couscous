@@ -11,7 +11,7 @@ import Contributions from './components/Contributions/Contributions';
 import ContributionEdit from './components/ContributionEdit/ContributionEdit';
 import { getSelected } from './selectors/contributions';
 
-const App = () => {
+const App: React.FC = () => {
   const selected = useSelector(getSelected);
   const dispatch = useDispatch();
 

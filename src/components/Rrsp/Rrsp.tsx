@@ -5,7 +5,7 @@ import React from 'react';
 
 import { FieldRenderProps } from '../../types/form';
 
-const Rrsp = () => (
+const Rrsp: React.FC = () => (
   <Field name="rrsp">
     {({ field }: FieldRenderProps) => (
       <TextField

@@ -1,8 +1,7 @@
 import { render, fireEvent } from '@testing-library/react';
-import React from 'react';
-import App from './App';
 import { Provider } from 'react-redux';
 
+import App from './App';
 import { createStore } from './store';
 
 const startDate = new Date(2020, 6, 3);

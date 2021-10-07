@@ -5,7 +5,7 @@ import React from 'react';
 
 import { FieldRenderProps } from '../../types/form';
 
-const Tfsa = () => (
+const Tfsa: React.FC = () => (
   <Field name="tfsa">
     {({ field }: FieldRenderProps) => (
       <TextField

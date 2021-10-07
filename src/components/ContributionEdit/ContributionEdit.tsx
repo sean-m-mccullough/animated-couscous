@@ -15,7 +15,7 @@ import Tfsa from '../Tfsa/Tfsa';
 import Rrsp from '../Rrsp/Rrsp';
 import classes from './ContributionEdit.module.scss';
 
-const ContributionEdit = () => {
+const ContributionEdit: React.FC = () => {
   const visible = useSelector<State, boolean>(state => isVisible(state, Dialogs.contributionEdit));
   const dispatch = useDispatch();
   const dismiss = () => dispatch(contributionEditDismiss());
