@@ -2,13 +2,16 @@
 
 Our software is a record-keeping system for a retirement plan. Plan members make contributions to the plan to save for
 retirement, and those contributions are invested into their selection of investment vehicle (e.g. index fund). We work only with registered
-accounts and plan members can specify how much of their contribution goes to RRSP and how much goes to TFSA.
+accounts and plan members can specify how much of their contribution goes to RRSP and how much goes to TFSA. When members make changes to their contributions
+(e.g.  update or cancel) the changes do not take effect immediately.
 
 In this project, your colleague has implemented "My Contributions" page with an ability to edit or cancel contributions. Unfortunately they had to take a sick leave and the status of their work is unknown.
 
 # Problem
 
-Your task is to complete your coleague's work. On this page plan members need to be able to edit or cancel their upcoming monthly contribution. Acceptance criteria:
+Your task is to complete your coleague's work. On this page plan members need to be able to edit or cancel their upcoming monthly contribution. 
+
+Acceptance criteria:
 
 * Only upcoming (`PENDING`) contributions can be edited on cancelled. 
 * When user chooses to cancel their upcoming contribution we need to ask for confirmation with the following copy: `Are you sure you want to cancel this contribution?`
