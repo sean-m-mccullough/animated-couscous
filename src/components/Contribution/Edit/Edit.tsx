@@ -7,21 +7,21 @@ import { Formik, Form } from 'formik';
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { contributionEditDismiss } from '../../actions/contribution';
-import { isVisible } from '../../selectors/dialogs';
-import { Dialogs } from '../../types/dialog';
-import { State } from '../../types/store';
-import Tfsa from '../Tfsa/Tfsa';
-import Rrsp from '../Rrsp/Rrsp';
-import classes from './ContributionEdit.module.scss';
+import { isVisible } from '../../../selectors/dialogs';
+import { Dialogs } from '../../../types/dialog';
+import { State } from '../../../types/store';
+import Tfsa from '../../Tfsa/Tfsa';
+import Rrsp from '../../Rrsp/Rrsp';
+import { dismiss } from './Edit.actions';
+import classes from './Edit.module.scss';
 
 const ContributionEdit: React.FC = () => {
   const visible = useSelector<State, boolean>(state => isVisible(state, Dialogs.contributionEdit));
   const dispatch = useDispatch();
-  const dismiss = () => dispatch(contributionEditDismiss());
+  const close = () => dispatch(dismiss());
 
   return (
-    <Dialog open={!!visible} onClose={dismiss}>
+    <Dialog open={!!visible} onClose={close}>
       <DialogTitle>Edit Contribution</DialogTitle>
       <Formik initialValues={{}} onSubmit={() => undefined}>
         {() => (
@@ -31,8 +31,8 @@ const ContributionEdit: React.FC = () => {
               <Tfsa />
             </DialogContent>
             <DialogActions>
-              <Button onClick={dismiss}>Cancel</Button>
-              <Button onClick={dismiss}>Accept</Button>
+              <Button onClick={close}>Cancel</Button>
+              <Button onClick={close}>Accept</Button>
             </DialogActions>
           </Form>
         )}

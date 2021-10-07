@@ -1,8 +1,8 @@
 import { ContributionSelect, ContributionEdit, ContributionEditDismiss } from './action/contributions';
 
 export enum Actions {
-  CONTRIBUTION_EDIT = 'CONTRIBUTION_EDIT',
-  CONTRIBUTION_EDIT_DISMISS = 'CONTRIBUTION_EDIT_DISMISS',
+  APP_EDIT = 'APP_EDIT',
+  CONTRIBUTIONEDIT_DISMISS = 'CONTRIBUTIONEDIT_DISMISS',
   CONTRIBUTION_SELECT = 'CONTRIBUTION_SELECT',
 }
 

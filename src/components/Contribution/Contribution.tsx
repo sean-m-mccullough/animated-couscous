@@ -5,9 +5,9 @@ import format from 'date-fns/format';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { contributionSelect } from '../../actions/contribution';
 import { getSelected } from '../../selectors/contributions';
 import { WithContribution } from '../../types/contribution';
+import { select } from './Contribution.actions';
 import Status from './Status/Status';
 
 type Props = WithContribution;
@@ -19,7 +19,7 @@ const Contribution: React.FC<Props> = ({ contribution }) => {
 
   return (
     <ListItem
-      onClick={() => dispatch(contributionSelect(contribution))}
+      onClick={() => dispatch(select(contribution))}
       selected={!!selected && selected.uuid === uuid}
       button
     >

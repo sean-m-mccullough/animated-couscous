@@ -7,12 +7,12 @@ const defaultState = {
 
 const dialogs = (state: VisibleDialogs = defaultState, action: Action) => {
   switch(action.type) {
-    case Actions.CONTRIBUTION_EDIT:
+    case Actions.APP_EDIT:
       return {
         ...state,
         [Dialogs.contributionEdit]: true,
       };
-    case Actions.CONTRIBUTION_EDIT_DISMISS:
+    case Actions.CONTRIBUTIONEDIT_DISMISS:
       return {
         ...state,
         [Dialogs.contributionEdit]: false,
