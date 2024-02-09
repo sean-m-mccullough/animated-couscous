@@ -1,6 +1,5 @@
 import { Actions } from '../../../types/action';
-import { ContributionEditDismiss } from '../../../types/action/contributions';
 
-export const dismiss = (): ContributionEditDismiss => ({
+export const dismiss = () => ({
   type: Actions.CONTRIBUTIONEDIT_DISMISS,
 })

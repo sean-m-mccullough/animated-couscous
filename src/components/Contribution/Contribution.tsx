@@ -1,7 +1,8 @@
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import Typography from '@material-ui/core/Typography';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemText from '@mui/material/ListItemText';
+import Typography from '@mui/material/Typography';
 import format from 'date-fns/format';
+import partISO from 'date-fns/parseISO'
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -18,14 +19,13 @@ const Contribution: React.FC<Props> = ({ contribution }) => {
   const selected = useSelector(getSelected);
 
   return (
-    <ListItem
+    <ListItemButton
       onClick={() => dispatch(select(contribution))}
       selected={!!selected && selected.uuid === uuid}
-      button
     >
       <ListItemText
         primary={
-          <Typography variant="body1">{format(date, 'PPP')}</Typography>
+          <Typography variant="body1">{format(partISO(date), 'PPP')}</Typography>
         }
         secondary={
           <Typography variant="body2">
@@ -35,7 +35,7 @@ const Contribution: React.FC<Props> = ({ contribution }) => {
         }
         disableTypography
       />
-    </ListItem>
+    </ListItemButton>
   );
 };
 

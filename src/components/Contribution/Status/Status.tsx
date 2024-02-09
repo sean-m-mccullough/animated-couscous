@@ -1,4 +1,4 @@
-import Badge from '@material-ui/core/Badge';
+import Badge from '@mui/material/Badge';
 import React from 'react';
 
 import { Contribution, Status as StatusType } from '../../../types/contribution';

@@ -10,7 +10,7 @@ export interface Contribution {
   total: number;
   tfsa: number;
   rrsp: number;
-  date: Date;
+  date: string;
 }
 
 export interface WithContribution {
