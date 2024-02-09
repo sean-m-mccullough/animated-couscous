@@ -1,0 +1,5 @@
+div.root {
+  &:hover, &.selected, &:global(.Mui-selected):hover {
+    background-color: #f1f6f6;
+  }
+}

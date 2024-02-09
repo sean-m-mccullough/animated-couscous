@@ -10,6 +10,7 @@ import { getSelected } from '../../selectors/contributions';
 import { WithContribution } from '../../types/contribution';
 import { select } from './Contribution.actions';
 import Status from './Status/Status';
+import classes from './Contribution.module.scss'
 
 type Props = WithContribution;
 
@@ -20,6 +21,7 @@ const Contribution: React.FC<Props> = ({ contribution }) => {
 
   return (
     <ListItemButton
+    classes={classes}
       onClick={() => dispatch(select(contribution))}
       selected={!!selected && selected.uuid === uuid}
     >
@@ -29,7 +31,7 @@ const Contribution: React.FC<Props> = ({ contribution }) => {
         }
         secondary={
           <Typography variant="body2">
-            ${total}
+            <span>${total}</span>
             <Status status={status} />
           </Typography>
         }

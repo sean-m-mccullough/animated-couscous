@@ -17,7 +17,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <Card>
+      <Card elevation={0}>
         <CardHeader title="My Contributions" />
         <CardContent>
           <Contributions />

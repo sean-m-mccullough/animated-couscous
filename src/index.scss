@@ -1,9 +1,12 @@
+@import 'https://fonts.googleapis.com/css?family=Inter:400,700&display=swap';
+
 * {
   box-sizing: border-box;
 }
 
 html, body, #root {
   height: 100%;
+  background-color: #fafafa;
 }
 
 #root {
@@ -11,6 +14,10 @@ html, body, #root {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('/src/assets/logo.svg');
+  background-repeat: no-repeat;
+  background-size: 15%;
+  background-position: center 5%;
 
   > div {
     min-width: 320px;
