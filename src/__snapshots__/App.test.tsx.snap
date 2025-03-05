@@ -8,191 +8,181 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
     aria-hidden="true"
   >
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+      style="--Paper-shadow: none;"
     >
       <div
-        class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+        class="MuiCardHeader-root css-149tc0y-MuiCardHeader-root"
       >
         <div
-          class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+          class="MuiCardHeader-content css-1jkp9bu-MuiCardHeader-content"
         >
           <span
-            class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-16xl4zq-MuiTypography-root"
           >
             My Contributions
           </span>
         </div>
       </div>
       <div
-        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+        class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
       >
         <ul
-          class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+          class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
         >
           <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters Mui-selected MuiListItemButton-root MuiListItemButton-gutters Mui-selected css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+            class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 Mui-selected _selected_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 Mui-selected _selected_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
             role="button"
             tabindex="0"
           >
             <div
-              class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+              class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
               >
                 July 3rd, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
               >
-                $
-                1500
+                <span>
+                  $
+                  1500
+                </span>
                 <span
-                  class="MuiBadge-root _root_25e320 css-1c32n2y-MuiBadge-root"
+                  class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
                 >
                   <span
-                    class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorPrimary _colorPrimary_25e320 css-zza0ns-MuiBadge-badge"
+                    class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorInfo _colorInfo_25e320 css-1whbi7s-MuiBadge-badge"
                   >
                     PENDING
                   </span>
                 </span>
               </p>
             </div>
-            <span
-              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-            />
           </div>
           <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+            class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
             role="button"
             tabindex="0"
           >
             <div
-              class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+              class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
               >
                 June 3rd, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
               >
-                $
-                1500
+                <span>
+                  $
+                  1500
+                </span>
               </p>
             </div>
-            <span
-              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-            />
           </div>
           <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+            class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
             role="button"
             tabindex="0"
           >
             <div
-              class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+              class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
               >
                 May 3rd, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
               >
-                $
-                1500
+                <span>
+                  $
+                  1500
+                </span>
               </p>
             </div>
-            <span
-              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-            />
           </div>
           <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+            class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
             role="button"
             tabindex="0"
           >
             <div
-              class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+              class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
               >
                 April 3rd, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
               >
-                $
-                1500
+                <span>
+                  $
+                  1500
+                </span>
               </p>
             </div>
-            <span
-              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-            />
           </div>
           <div
-            class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+            class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
             role="button"
             tabindex="0"
           >
             <div
-              class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+              class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
             >
               <p
-                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
               >
                 March 3rd, 2020
               </p>
               <p
-                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
               >
-                $
-                1500
+                <span>
+                  $
+                  1500
+                </span>
               </p>
             </div>
-            <span
-              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-            />
           </div>
         </ul>
       </div>
       <div
-        class="MuiCardActions-root MuiCardActions-spacing css-dnrpxu-MuiCardActions-root"
+        class="MuiCardActions-root MuiCardActions-spacing css-1q4nm6f-MuiCardActions-root"
       >
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
           tabindex="0"
           type="button"
         >
           Edit
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </button>
         <button
-          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
           tabindex="0"
           type="button"
         >
           Cancel
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </button>
       </div>
     </div>
   </div>
   <div
-    class="MuiDialog-root MuiModal-root css-zw3mfo-MuiModal-root-MuiDialog-root"
+    class="MuiDialog-root MuiModal-root css-1424xw8-MuiModal-root-MuiDialog-root"
     role="presentation"
   >
     <div
       aria-hidden="true"
-      class="MuiBackdrop-root MuiModal-backdrop css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop"
+      class="MuiBackdrop-root MuiModal-backdrop css-1cennmq-MuiBackdrop-root-MuiDialog-backdrop"
       style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
     />
     <div
@@ -200,19 +190,21 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
       tabindex="0"
     />
     <div
-      class="MuiDialog-container MuiDialog-scrollPaper css-hz1bth-MuiDialog-container"
+      class="MuiDialog-container MuiDialog-scrollPaper css-19do60a-MuiDialog-container"
       role="presentation"
       style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
       tabindex="-1"
     >
       <div
-        aria-labelledby=":r1:"
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-1t1j96h-MuiPaper-root-MuiDialog-paper"
+        aria-labelledby=":r5:"
+        aria-modal="true"
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-10d30g3-MuiPaper-root-MuiDialog-paper"
         role="dialog"
+        style="--Paper-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);"
       >
         <h2
-          class="MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-bdhsul-MuiTypography-root-MuiDialogTitle-root"
-          id=":r1:"
+          class="MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-rvoa5x-MuiTypography-root-MuiDialogTitle-root"
+          id=":r5:"
         >
           Edit Contribution
         </h2>
@@ -220,45 +212,44 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
           action="#"
         >
           <div
-            class="MuiDialogContent-root _root_0171e5 css-ypiqx9-MuiDialogContent-root"
+            class="MuiDialogContent-root _root_0171e5 css-kw13he-MuiDialogContent-root"
           >
             <div
-              class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
             >
               <label
-                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1jy569b-MuiFormLabel-root-MuiInputLabel-root"
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-113d811-MuiFormLabel-root-MuiInputLabel-root"
                 data-shrink="true"
-                for=":r2:"
-                id=":r2:-label"
+                for=":r6:"
+                id=":r6:-label"
               >
                 RRSP
               </label>
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-4bojcr-MuiInputBase-root-MuiOutlinedInput-root"
               >
                 <div
-                  class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                  class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1nowbqt-MuiInputAdornment-root"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ro85z9-MuiTypography-root"
                   >
                     $
                   </p>
                 </div>
                 <input
                   aria-invalid="false"
-                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
-                  id=":r2:"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-2u11ia-MuiInputBase-input-MuiOutlinedInput-input"
+                  id=":r6:"
                   name="rrsp"
                   type="number"
-                  value=""
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
                 >
                   <legend
-                    class="css-14lo706"
+                    class="css-w1u3ce"
                   >
                     <span>
                       RRSP
@@ -268,42 +259,41 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
               </div>
             </div>
             <div
-              class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              class="MuiFormControl-root MuiTextField-root css-1xp5r68-MuiFormControl-root-MuiTextField-root"
             >
               <label
-                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1jy569b-MuiFormLabel-root-MuiInputLabel-root"
+                class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-113d811-MuiFormLabel-root-MuiInputLabel-root"
                 data-shrink="true"
-                for=":r3:"
-                id=":r3:-label"
+                for=":r7:"
+                id=":r7:-label"
               >
                 TFSA
               </label>
               <div
-                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+                class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-4bojcr-MuiInputBase-root-MuiOutlinedInput-root"
               >
                 <div
-                  class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+                  class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1nowbqt-MuiInputAdornment-root"
                 >
                   <p
-                    class="MuiTypography-root MuiTypography-body1 css-1pnmrwp-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-body1 css-1ro85z9-MuiTypography-root"
                   >
                     $
                   </p>
                 </div>
                 <input
                   aria-invalid="false"
-                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input"
-                  id=":r3:"
+                  class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-2u11ia-MuiInputBase-input-MuiOutlinedInput-input"
+                  id=":r7:"
                   name="tfsa"
                   type="number"
-                  value=""
                 />
                 <fieldset
                   aria-hidden="true"
-                  class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  class="MuiOutlinedInput-notchedOutline css-1ll44ll-MuiOutlinedInput-notchedOutline"
                 >
                   <legend
-                    class="css-14lo706"
+                    class="css-w1u3ce"
                   >
                     <span>
                       TFSA
@@ -314,27 +304,21 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
             </div>
           </div>
           <div
-            class="MuiDialogActions-root MuiDialogActions-spacing css-knqc4i-MuiDialogActions-root"
+            class="MuiDialogActions-root MuiDialogActions-spacing css-15fu35s-MuiDialogActions-root"
           >
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
               tabindex="0"
               type="button"
             >
               Cancel
-              <span
-                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-              />
             </button>
             <button
-              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
               tabindex="0"
               type="button"
             >
               Accept
-              <span
-                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-              />
             </button>
           </div>
         </form>
@@ -351,163 +335,159 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
 exports[`renders with no issues 1`] = `
 <div>
   <div
-    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiCard-root css-1j74uew-MuiPaper-root-MuiCard-root"
+    style="--Paper-shadow: none;"
   >
     <div
-      class="MuiCardHeader-root css-185gdzj-MuiCardHeader-root"
+      class="MuiCardHeader-root css-149tc0y-MuiCardHeader-root"
     >
       <div
-        class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+        class="MuiCardHeader-content css-1jkp9bu-MuiCardHeader-content"
       >
         <span
-          class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1qvr50w-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-16xl4zq-MuiTypography-root"
         >
           My Contributions
         </span>
       </div>
     </div>
     <div
-      class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      class="MuiCardContent-root css-1lt5qva-MuiCardContent-root"
     >
       <ul
-        class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
       >
         <div
-          class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
           role="button"
           tabindex="0"
         >
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
             >
               July 3rd, 2020
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
             >
-              $
-              1500
+              <span>
+                $
+                1500
+              </span>
               <span
-                class="MuiBadge-root _root_25e320 css-1c32n2y-MuiBadge-root"
+                class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
               >
                 <span
-                  class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorPrimary _colorPrimary_25e320 css-zza0ns-MuiBadge-badge"
+                  class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorInfo _colorInfo_25e320 css-1whbi7s-MuiBadge-badge"
                 >
                   PENDING
                 </span>
               </span>
             </p>
           </div>
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </div>
         <div
-          class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
           role="button"
           tabindex="0"
         >
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
             >
               June 3rd, 2020
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
             >
-              $
-              1500
+              <span>
+                $
+                1500
+              </span>
             </p>
           </div>
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </div>
         <div
-          class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
           role="button"
           tabindex="0"
         >
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
             >
               May 3rd, 2020
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
             >
-              $
-              1500
+              <span>
+                $
+                1500
+              </span>
             </p>
           </div>
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </div>
         <div
-          class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
           role="button"
           tabindex="0"
         >
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
             >
               April 3rd, 2020
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
             >
-              $
-              1500
+              <span>
+                $
+                1500
+              </span>
             </p>
           </div>
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </div>
         <div
-          class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          class="MuiButtonBase-root MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 MuiListItemButton-root _root_d52787 MuiListItemButton-gutters _gutters_d52787 css-4bx69l-MuiButtonBase-root-MuiListItemButton-root"
           role="button"
           tabindex="0"
         >
           <div
-            class="MuiListItemText-root MuiListItemText-multiline css-konndc-MuiListItemText-root"
+            class="MuiListItemText-root MuiListItemText-multiline css-14ln1j6-MuiListItemText-root"
           >
             <p
-              class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
             >
               March 3rd, 2020
             </p>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
             >
-              $
-              1500
+              <span>
+                $
+                1500
+              </span>
             </p>
           </div>
-          <span
-            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-          />
         </div>
       </ul>
     </div>
     <div
-      class="MuiCardActions-root MuiCardActions-spacing css-dnrpxu-MuiCardActions-root"
+      class="MuiCardActions-root MuiCardActions-spacing css-1q4nm6f-MuiCardActions-root"
     >
       <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
         disabled=""
         tabindex="-1"
         type="button"
@@ -515,7 +495,7 @@ exports[`renders with no issues 1`] = `
         Edit
       </button>
       <button
-        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary Mui-disabled MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
         disabled=""
         tabindex="-1"
         type="button"
