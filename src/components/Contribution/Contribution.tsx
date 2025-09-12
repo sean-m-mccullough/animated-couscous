@@ -1,8 +1,8 @@
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Typography from '@mui/material/Typography';
-import format from 'date-fns/format';
-import partISO from 'date-fns/parseISO'
+import { format } from 'date-fns/format';
+import { parseISO as partISO } from 'date-fns/parseISO';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
