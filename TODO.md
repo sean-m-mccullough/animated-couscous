@@ -15,6 +15,7 @@ Status Update 1e
 [] Cancel functionality - A user can not yet cancel pending contributions.
 
 2) Hour 2
-    a) Add PUT and DELETE calls and mocks
-    b) Show/ store contribution details on click (amounts contributed to RRSPs and/or TFSAs )
-    c) Update tests
+    a) Create a Github repo - Ran into some issue with committing to a detached head. Download was still tied to its initial repo (https://bitbucket.org/cwretirementeng/frontend-code-test.git)
+    b) Add PUT and DELETE calls and mocks
+    c) Show/ store contribution details on click (amounts contributed to RRSPs and/or TFSAs )
+    d) Update tests
