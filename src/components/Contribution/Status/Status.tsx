@@ -12,8 +12,10 @@ const color: Record<StatusType, BadgeOwnProps['color']> = {
   [StatusType.Processed]: 'success'
 }
 
-const Status: React.FC<Props> = ({ status }) => 
-  status === StatusType.Pending ? 
-    <Badge badgeContent={status} color={color[status]} classes={classes} /> : null
+const Status: React.FC<Props> = ({ status }) => {
+  return (
+      <Badge badgeContent={status} color={color[status]} classes={classes} />
+  );
+}
 
 export default Status;
