@@ -82,6 +82,15 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
                   $
                   1500
                 </span>
+                <span
+                  class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+                >
+                  <span
+                    class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                  >
+                    PROCESSED
+                  </span>
+                </span>
               </p>
             </div>
           </div>
@@ -104,6 +113,15 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
                 <span>
                   $
                   1500
+                </span>
+                <span
+                  class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+                >
+                  <span
+                    class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                  >
+                    PROCESSED
+                  </span>
                 </span>
               </p>
             </div>
@@ -128,6 +146,15 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
                   $
                   1500
                 </span>
+                <span
+                  class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+                >
+                  <span
+                    class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                  >
+                    PROCESSED
+                  </span>
+                </span>
               </p>
             </div>
           </div>
@@ -150,6 +177,15 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
                 <span>
                   $
                   1500
+                </span>
+                <span
+                  class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+                >
+                  <span
+                    class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                  >
+                    PROCESSED
+                  </span>
                 </span>
               </p>
             </div>
@@ -196,7 +232,7 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
       tabindex="-1"
     >
       <div
-        aria-labelledby=":r5:"
+        aria-labelledby=":r6:"
         aria-modal="true"
         class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-10d30g3-MuiPaper-root-MuiDialog-paper"
         role="dialog"
@@ -204,7 +240,7 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
       >
         <h2
           class="MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-rvoa5x-MuiTypography-root-MuiDialogTitle-root"
-          id=":r5:"
+          id=":r6:"
         >
           Edit Contribution
         </h2>
@@ -220,8 +256,8 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
               <label
                 class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-113d811-MuiFormLabel-root-MuiInputLabel-root"
                 data-shrink="true"
-                for=":r6:"
-                id=":r6:-label"
+                for=":r8:"
+                id=":r8:-label"
               >
                 RRSP
               </label>
@@ -240,7 +276,7 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
                 <input
                   aria-invalid="false"
                   class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-2u11ia-MuiInputBase-input-MuiOutlinedInput-input"
-                  id=":r6:"
+                  id=":r8:"
                   name="rrsp"
                   type="number"
                 />
@@ -264,8 +300,8 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
               <label
                 class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-113d811-MuiFormLabel-root-MuiInputLabel-root"
                 data-shrink="true"
-                for=":r7:"
-                id=":r7:-label"
+                for=":r9:"
+                id=":r9:-label"
               >
                 TFSA
               </label>
@@ -284,7 +320,7 @@ exports[`opens a dialog when pending contribution is edited 1`] = `
                 <input
                   aria-invalid="false"
                   class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedStart css-2u11ia-MuiInputBase-input-MuiOutlinedInput-input"
-                  id=":r7:"
+                  id=":r9:"
                   name="tfsa"
                   type="number"
                 />
@@ -409,6 +445,15 @@ exports[`renders with no issues 1`] = `
                 $
                 1500
               </span>
+              <span
+                class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+              >
+                <span
+                  class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                >
+                  PROCESSED
+                </span>
+              </span>
             </p>
           </div>
         </div>
@@ -431,6 +476,15 @@ exports[`renders with no issues 1`] = `
               <span>
                 $
                 1500
+              </span>
+              <span
+                class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+              >
+                <span
+                  class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                >
+                  PROCESSED
+                </span>
               </span>
             </p>
           </div>
@@ -455,6 +509,15 @@ exports[`renders with no issues 1`] = `
                 $
                 1500
               </span>
+              <span
+                class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+              >
+                <span
+                  class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                >
+                  PROCESSED
+                </span>
+              </span>
             </p>
           </div>
         </div>
@@ -477,6 +540,15 @@ exports[`renders with no issues 1`] = `
               <span>
                 $
                 1500
+              </span>
+              <span
+                class="MuiBadge-root _root_25e320 css-63ezxx-MuiBadge-root"
+              >
+                <span
+                  class="MuiBadge-badge _badge_25e320 MuiBadge-standard _standard_25e320 MuiBadge-anchorOriginTopRight _anchorOriginTopRight_25e320 MuiBadge-anchorOriginTopRightRectangular _anchorOriginTopRightRectangular_25e320 MuiBadge-overlapRectangular _overlapRectangular_25e320 MuiBadge-colorSuccess _colorSuccess_25e320 css-1g05v71-MuiBadge-badge"
+                >
+                  PROCESSED
+                </span>
               </span>
             </p>
           </div>
