@@ -1,5 +1,5 @@
-import addDays from 'date-fns/addDays';
-import subMonths from 'date-fns/subMonths';
+import { addDays } from 'date-fns/addDays';
+import { subMonths } from 'date-fns/subMonths';
 import { configureStore } from '@reduxjs/toolkit';
 
 import reducer from './reducers';
