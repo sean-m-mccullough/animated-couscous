@@ -8,9 +8,10 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import Contributions from './components/Contributions/Contributions';
 import ContributionEdit from './components/Contribution/Edit/Edit';
+import ContributionCancel from './components/Cancel/Cancel';
 import { Status } from './types/contribution';
 import { getSelected } from './selectors/contributions';
-import { edit } from './App.actions';
+import { edit, cancel } from './App.actions';
 
 const App: React.FC = () => {
   const selected = useSelector(getSelected);
@@ -22,6 +23,10 @@ const App: React.FC = () => {
     dispatch(edit());
   }
 
+  function handleCancel(): void {
+    dispatch(cancel());
+  }
+
   return (
     <>
       <Card elevation={0}>
@@ -31,10 +36,11 @@ const App: React.FC = () => {
         </CardContent>
         <CardActions>
           <Button disabled={!actionableSelection} onClick={handleEdit}>Edit</Button>
-          <Button disabled={!actionableSelection}>Cancel</Button>
+          <Button disabled={!actionableSelection} onClick={handleCancel}>Cancel</Button>
         </CardActions>
       </Card>
       <ContributionEdit />
+      <ContributionCancel />
     </>
   );
 }
