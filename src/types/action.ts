@@ -1,4 +1,4 @@
-import { ContributionSelect, ContributionEdit, ContributionEditDismiss, ContributionCancel, ContributionCancelDismiss, ContributionCancelConfirm } from './action/contributions';
+import { ContributionSelect, ContributionEdit, ContributionEditDismiss, ContributionEditConfirm, ContributionCancel, ContributionCancelDismiss, ContributionCancelConfirm } from './action/contributions';
 
 export enum Actions {
   APP_EDIT = 'APP_EDIT',
@@ -6,6 +6,7 @@ export enum Actions {
   APP_CANCEL_DISMISS = 'APP_CANCEL_DISMISS',
   APP_CANCEL_CONFIRM = 'APP_CANCEL_CONFIRM',
   CONTRIBUTIONEDIT_DISMISS = 'CONTRIBUTIONEDIT_DISMISS',
+  CONTRIBUTIONEDIT_CONFIRM = 'CONTRIBUTIONEDIT_CONFIRM',
   CONTRIBUTION_SELECT = 'CONTRIBUTION_SELECT',
 }
 
@@ -14,5 +15,5 @@ export type Action = ContributionCancel
   | ContributionCancelDismiss
   | ContributionEdit
   | ContributionEditDismiss
-  | ContributionSelect
-  ;
+  | ContributionEditConfirm
+  | ContributionSelect;

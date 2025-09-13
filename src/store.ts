@@ -1,6 +1,7 @@
 import { addDays } from 'date-fns/addDays';
 import { subMonths } from 'date-fns/subMonths';
 import { configureStore } from '@reduxjs/toolkit';
+import { contributionsApi } from './api/contributions'; 
 
 import reducer from './reducers';
 import preloadedState from './store.json';
@@ -27,6 +28,7 @@ const transformState = ({ contributions, dialogs }: any, startDate: Date): State
 export const createStore = (startDate: Date) => 
   configureStore({
     reducer,
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(contributionsApi.middleware),
     preloadedState: transformState(preloadedState, startDate) as any
   });
 

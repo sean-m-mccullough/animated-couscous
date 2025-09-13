@@ -17,6 +17,15 @@ export interface ContributionCancelDismiss {
   type: Actions.APP_CANCEL_DISMISS;
 }
 
+export interface ContributionEditConfirm {
+  type: Actions.CONTRIBUTIONEDIT_CONFIRM;
+  payload: {
+    uuid: string,
+    rrsp: number,
+    tfsa: number,
+  }
+}
+
 export interface ContributionCancelConfirm {
   type: Actions.APP_CANCEL_CONFIRM;
   payload: {

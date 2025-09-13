@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
+import { useCancelContributionMutation } from '../../api/contributions';
 import { isVisible } from '../../selectors/dialogs';
 import { Dialogs } from '../../types/dialog';
 import { State } from '../../types/store';
@@ -19,13 +20,22 @@ import classes from './Cancel.module.scss';
 const ContributionCancel: React.FC = () => {
   const visible = useSelector<State, boolean>(state => isVisible(state, Dialogs.contributionCancel));
   const selectedContribution = useSelector(getSelected);
+  const [cancelContribution, { isLoading }] = useCancelContributionMutation();
   const dispatch = useDispatch();
 
-  function handleCancel(): void {
+
+  async function handleCancel(): Promise<void> {
     if(selectedContribution && selectedContribution.status === Status.Pending) {
-      dispatch(cancelConfirm(selectedContribution.uuid));
+      try {
+        await cancelContribution(selectedContribution.uuid).unwrap();
+        dispatch(cancelConfirm(selectedContribution.uuid));
+      } catch (error) {
+        // Best to log this error in a real app to something like New Relic 
+        console.error('Failed to cancel contribution:', error);
+      } finally {
+        dispatch(dismiss());
+      }
     }
-    dispatch(dismiss());
   }
 
   function handleClose(): void {
@@ -33,7 +43,7 @@ const ContributionCancel: React.FC = () => {
   }
 
   return (
-    <Dialog open={!!visible} onClose={close}>
+    <Dialog open={!!visible}>
       <DialogTitle>Cancel Contribution</DialogTitle>
         <DialogContent className={classes}>
           <Typography
@@ -43,7 +53,13 @@ const ContributionCancel: React.FC = () => {
           </Typography>
         </DialogContent>
         <DialogActions>
-            <Button onClick={handleCancel}>Yes</Button>
+            <Button 
+              onClick={handleCancel} 
+              color="error" 
+              disabled={isLoading}
+            >
+              {isLoading ? 'Cancelling...' : 'Yes'}
+            </Button>
             <Button onClick={handleClose}>No</Button>
         </DialogActions>
     </Dialog>
