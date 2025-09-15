@@ -22,6 +22,11 @@ Status Update 1e \
     c) ~~Show/ store contribution details on click (amounts contributed to RRSPs and/or TFSAs )~~ \
     d) ~~Update tests~~ \
 
+3) Optimizations \
+    a) Implemented useCallBack with handle functions \
+    b) Created a memoized selected with RTK for edits \
+    Note: I think memo() could also be used to wrap components, it seems appropiate given the use of different hooks, which could result in re-renders.
+
 
 Notes: 
 - I haven't used Redux in probably 5yrs so I had to hit the docs and find a video tutorial to refresh myself.
