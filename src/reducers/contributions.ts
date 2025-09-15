@@ -13,7 +13,6 @@ const contributionsSlice = createSlice({
         .addMatcher(
             contributionsApi.endpoints.updateContributions.matchFulfilled,
             (state, action) => {
-                console.log(action.payload);
                 const contribution = action.payload;
                 state[contribution.uuid] = contribution;
             }
@@ -21,7 +20,6 @@ const contributionsSlice = createSlice({
         .addMatcher(
             contributionsApi.endpoints.cancelContribution.matchFulfilled,
             (state, action) => {
-                console.log(action.payload);
                 const contribution = action.payload;
                 // API returns the "cancelled" status so it zeros out amounts based on the returned mock data
                 if (contribution.status === 'CANCELLED') {

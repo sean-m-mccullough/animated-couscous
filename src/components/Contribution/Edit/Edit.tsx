@@ -4,7 +4,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import { Formik, Form } from 'formik';
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { useUpdateContributionsMutation } from '../../../api/contributions';
@@ -24,7 +24,8 @@ const ContributionEdit: React.FC = () => {
   const selectedContribution = useSelector(getSelected);
   const dispatch = useDispatch();
 
-  async function handleSubmit(values: { rrsp: number, tfsa: number }): Promise<void> {
+  // Memoize to prevent unnecessary re-renders
+  const handleSubmit = useCallback(async (values: { rrsp: number, tfsa: number }): Promise<void> => {
     if(selectedContribution && selectedContribution.status === Status.Pending) {
       try {
         await updateContribution({
@@ -38,11 +39,12 @@ const ContributionEdit: React.FC = () => {
         dispatch(dismiss());
       }
     }
-  }
+  }, [selectedContribution, updateContribution, dispatch]);
 
-  function handleClose(): void {
+  // Memoize to prevent unnecessary re-renders
+  const handleClose: () => void = useCallback((): void => {
     dispatch(dismiss());
-  }
+  }, [dispatch]);
 
   return (
     <Dialog open={!!visible}>

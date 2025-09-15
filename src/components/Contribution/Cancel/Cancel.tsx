@@ -4,7 +4,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import Typography from '@mui/material/Typography';
-import React from 'react';
+import React, { useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { useCancelContributionMutation } from '../../../api/contributions';
@@ -23,8 +23,8 @@ const ContributionCancel: React.FC = () => {
   const [cancelContribution, { isLoading }] = useCancelContributionMutation();
   const dispatch = useDispatch();
 
-
-  async function handleCancel(): Promise<void> {
+  // Memoize to prevent unnecessary re-renders
+  const handleCancel = useCallback(async (): Promise<void> => {
     if(selectedContribution && selectedContribution.status === Status.Pending) {
       try {
         await cancelContribution(selectedContribution.uuid).unwrap();
@@ -35,11 +35,12 @@ const ContributionCancel: React.FC = () => {
         dispatch(dismiss());
       }
     }
-  }
+  }, [selectedContribution, cancelContribution, dispatch]);
 
-  function handleClose(): void {
+  // Memoize to prevent unnecessary re-renders
+  const handleClose = useCallback((): void => {
     dispatch(dismiss());
-  }
+  }, [dispatch]);
 
   return (
     <Dialog open={!!visible}>
