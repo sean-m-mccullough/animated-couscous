@@ -7,13 +7,13 @@ import Typography from '@mui/material/Typography';
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
-import { useCancelContributionMutation } from '../../api/contributions';
-import { isVisible } from '../../selectors/dialogs';
-import { Dialogs } from '../../types/dialog';
-import { State } from '../../types/store';
-import { getSelected } from '../../selectors/contributions';
-import { dismiss, cancelConfirm } from './Cancel.actions';
-import { Status } from '../../types/contribution';
+import { useCancelContributionMutation } from '../../../api/contributions';
+import { isVisible } from '../../../selectors/dialogs';
+import { Dialogs } from '../../../types/dialog';
+import { State } from '../../../types/store';
+import { getSelected } from '../../../selectors/contributions';
+import { dismiss } from './Cancel.actions';
+import { Status } from '../../../types/contribution';
 import classes from './Cancel.module.scss';
 
 
@@ -28,7 +28,6 @@ const ContributionCancel: React.FC = () => {
     if(selectedContribution && selectedContribution.status === Status.Pending) {
       try {
         await cancelContribution(selectedContribution.uuid).unwrap();
-        dispatch(cancelConfirm(selectedContribution.uuid));
       } catch (error) {
         // Best to log this error in a real app to something like New Relic 
         console.error('Failed to cancel contribution:', error);

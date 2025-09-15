@@ -8,7 +8,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import Contributions from './components/Contributions/Contributions';
 import ContributionEdit from './components/Contribution/Edit/Edit';
-import ContributionCancel from './components/Cancel/Cancel';
+import ContributionCancel from './components/Contribution/Cancel/Cancel';
 import { Status } from './types/contribution';
 import { getSelected } from './selectors/contributions';
 import { edit, cancel } from './App.actions';

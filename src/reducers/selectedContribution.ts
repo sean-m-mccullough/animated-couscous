@@ -8,7 +8,6 @@ const selectedContribution = (state: Nullable<Contribution> = null, action: Acti
         ...action.contribution
       };
     default:
-      console.log({state})
       return state;
   }
 };

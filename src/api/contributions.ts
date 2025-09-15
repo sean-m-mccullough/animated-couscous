@@ -42,6 +42,7 @@ export const contributionsApi = createApi({
                 queryFn: async (uuid) => {
                     await new Promise(res => setTimeout(res, 500));
                     console.info('Cancelling contribution:', uuid);
+
                     return { 
                         data: { 
                             uuid, 
