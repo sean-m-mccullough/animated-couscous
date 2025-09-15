@@ -9,7 +9,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import { useUpdateContributionsMutation } from '../../../api/contributions';
 import { isVisible } from '../../../selectors/dialogs';
-import { getSelected } from '../../../selectors/contributions';
+import { getSelectedForEdit } from '../../../selectors/contributions';
 import { Dialogs } from '../../../types/dialog';
 import { State } from '../../../types/store';
 import { Status } from '../../../types/contribution';
@@ -21,7 +21,7 @@ import classes from './Edit.module.scss';
 const ContributionEdit: React.FC = () => {
   const visible = useSelector<State, boolean>(state => isVisible(state, Dialogs.contributionEdit));
   const [updateContribution, { isLoading }] = useUpdateContributionsMutation();
-  const selectedContribution = useSelector(getSelected);
+  const selectedContribution = useSelector(getSelectedForEdit);
   const dispatch = useDispatch();
 
   // Memoize to prevent unnecessary re-renders
